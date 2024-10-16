@@ -71,7 +71,7 @@ To adjust, change the number 1 to any number of minutes you prefer.
 Feel free to submit issues or contribute to this project via GitHub. All contributions are welcome!
 
 ## Credit
-Huge Thanks to [Eniamza](https://github.com/Eniamza/)'s own [old USIS-CDN](https://usis-cdn.eniamza.com/usisdump.json) dump file for the updated data pulling.
+Huge Thanks to [Eniamza](https://github.com/Eniamza/)'s own [old USIS-CDN](https://usis-cdn.eniamza.com/old-usisdump.json) dump file for the updated data pulling.
 
 ## License
 This project is licensed under the Apache 2.0 License - see the LICENSE file for details.
