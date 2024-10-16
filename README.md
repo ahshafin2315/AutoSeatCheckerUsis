@@ -69,5 +69,5 @@ To adjust, change the number 1 to any number of minutes you prefer.
 ## Issues and Contributing
 Feel free to submit issues or contribute to this project via GitHub. All contributions are welcome!
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+This project is licensed under the Apache 2.0 License - see the LICENSE file for details.
