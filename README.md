@@ -12,16 +12,17 @@ This Python script checks for seat availability in real time for a specific clas
 ## Requirements
 
 ### Desktop (Windows/Linux)
-- Python 3.x
-- Required libraries:
+  - Python 3.x
+
+### Android (Termux)
+  - Termux terminal installed.
+  - Python installed in Termux (`pkg install python`).
+  - Termux-API APK and Termux Package installed (`pkg install termux-api`).
+
+### Required Python libraries:
   - `requests`
   - `plyer`
   - `schedule`
-
-### Android (Termux)
-- Termux terminal installed.
-- Python installed in Termux (`pkg install python`).
-- Termux-API APK and Termux Package installed (`pkg install termux-api`).
 
 ## Installation and Setup
 
