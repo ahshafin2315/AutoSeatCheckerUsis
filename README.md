@@ -1,6 +1,6 @@
 # Class Availability Checker
 
-This Python script checks for seat availability in a specific class section from a university schedule website and sends a notification when seats are available. The script works on both desktop environments (Windows/Linux) and Android devices through the Termux terminal.
+This Python script checks for seat availability in real time for a specific class section from BRAC university USIS website and sends a notification to running device when seats are available. The script works on both desktop environments (Windows/Linux) and Android devices through the Termux terminal.
 
 ## Features
 - Fetches real-time class schedule data from a JSON file.
@@ -17,12 +17,11 @@ This Python script checks for seat availability in a specific class section from
   - `requests`
   - `plyer`
   - `schedule`
-  - `termux-api` (for Android)
 
 ### Android (Termux)
 - Termux terminal installed.
 - Python installed in Termux (`pkg install python`).
-- Termux API installed (`pkg install termux-api`).
+- Termux-API APK and Termux Package installed (`pkg install termux-api`).
 
 ## Installation and Setup
 
@@ -34,71 +33,40 @@ git clone https://github.com/your-username/class-availability-checker.git
 cd class-availability-checker
 ```
 
-2. Install Dependencies
-Install the necessary Python packages listed in requirements.txt:
+### 2. Install dependencies:
 
-For Desktop (Windows/Linux):
-Create a virtual environment (optional but recommended):
+```bash
+pip install requests schedule plyer
+```
 
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate  # On Linux
-.\venv\Scripts\activate   # On Windows
-Install dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
 For Android (Termux):
 Install Python:
-
-bash
-Copy code
+```bash
 pkg install python
+```
 Install Termux API:
-
-bash
-Copy code
+```bash
 pkg install termux-api
-Install dependencies:
+```
 
-bash
-Copy code
-pip install requests schedule plyer
-3. Set Up the Script
-Edit the script to enter your course details. When prompted, enter the course code and section (e.g., CSE321, 03).
+### 3. Set Up & Run the Script
+Run below code inside script directory:
 
-bash
-Copy code
+```bash
 python script_name.py
-4. Run the Script
-For Desktop:
-Run the script, and it will notify you through the system tray when a seat becomes available:
+```
 
-bash
-Copy code
-python script_name.py
-For Android (Termux):
-In Termux, simply run:
+When a seat becomes available, Desktop or Termux will send you a notification through the system.
 
-bash
-Copy code
-python script_name.py
-When a seat becomes available, Termux will send you a notification through the Android system.
-
-5. Customize Notifications
-Desktop Notifications: You can customize the desktop notification by editing the send_desktop_notification function.
-Android Notifications: Modify the send_termux_notification function to change the notification message or title.
-Scheduled Check
+## Scheduled Check
 The script checks for seat availability every minute. You can modify the frequency in the following line of code:
 
-python
-Copy code
+```python
 schedule.every(1).minutes.do(check_class)
+```
 To adjust, change the number 1 to any number of minutes you prefer.
 
-Issues and Contributing
+## Issues and Contributing
 Feel free to submit issues or contribute to this project via GitHub. All contributions are welcome!
 
 License
