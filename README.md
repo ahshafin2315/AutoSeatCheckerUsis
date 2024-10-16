@@ -12,12 +12,12 @@ This Python script checks for seat availability in real time for a specific clas
 ## Requirements
 
 ### Desktop (Windows/Linux)
-  - Python 3.x
+  - [Python](https://www.python.org/downloads/) 3.x
 
 ### Android (Termux)
-  - Termux terminal installed.
+  - [Termux](https://github.com/termux/termux-app) terminal installed.
   - Python installed in Termux (`pkg install python`).
-  - Termux-API APK and Termux Package installed (`pkg install termux-api`).
+  - [Termux-API](https://github.com/termux/termux-api) APK and Termux Package installed (`pkg install termux-api`).
 
 ### Required Python libraries:
   - `requests`
@@ -33,6 +33,7 @@ First, clone the repository from GitHub to your local machine:
 git clone https://github.com/ahshafin2315/AutoSeatCheckerUsis
 cd AutoSeatCheckerUsis
 ```
+or, just download the `usis_seatCheck.py` script and store in desired location
 
 ### 2. Install dependencies:
 
