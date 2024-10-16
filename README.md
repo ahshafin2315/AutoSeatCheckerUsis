@@ -29,8 +29,8 @@ This Python script checks for seat availability in real time for a specific clas
 First, clone the repository from GitHub to your local machine:
 
 ```bash
-git clone https://github.com/your-username/class-availability-checker.git
-cd class-availability-checker
+git clone https://github.com/ahshafin2315/AutoSeatCheckerUsis
+cd AutoSeatCheckerUsis
 ```
 
 ### 2. Install dependencies:
@@ -50,7 +50,7 @@ pkg install termux-api
 ```
 
 ### 3. Set Up & Run the Script
-Run below code inside script directory:
+Run below code inside cloned script directory:
 
 ```bash
 python script_name.py
