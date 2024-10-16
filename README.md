@@ -53,7 +53,7 @@ pkg install termux-api
 Run below code inside cloned script directory:
 
 ```bash
-python script_name.py
+python usis_seatCheck.py
 ```
 
 When a seat becomes available, Desktop or Termux will send you a notification through the system.
