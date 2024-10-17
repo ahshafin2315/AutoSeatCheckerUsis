@@ -71,8 +71,11 @@ To adjust, change the number 1 to any number of minutes you prefer.
 ## Issues and Contributing
 Feel free to submit issues or contribute to this project via GitHub. All contributions are welcome!
 
+## Disclaimer 
+Unfortunately, the [usisdump](https://usis-cdn.eniamza.com/old-usisdump.json) of [Eniamza](https://github.com/Eniamza/) has stopped updating due to data freeze in main USIS database. So, the script won't work as expected 🥲.
+
 ## Credit
-Huge Thanks to [Eniamza](https://github.com/Eniamza/)'s own [old USIS-CDN](https://usis-cdn.eniamza.com/old-usisdump.json) dump file for the updated data pulling.
+Huge Thanks to [Eniamza](https://github.com/Eniamza/)'s own [old USIS-CDN](https://usis-cdn.eniamza.com/old-usisdump.json) dump file for my data pulling.
 
 ## License
 This project is licensed under the Apache 2.0 License - see the LICENSE file for details.
