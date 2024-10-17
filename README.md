@@ -48,7 +48,7 @@ Install Termux API:
 ```bash
 pkg install termux-api
 ```
-
+For all platforms (must):
 ```bash
 pip install requests schedule plyer bs4
 ```
