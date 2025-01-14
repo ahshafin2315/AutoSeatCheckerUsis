@@ -1,4 +1,5 @@
-# Class Availability Checker
+# USIS Class Availability Checker (Discontinued)
+**(No longer supported after USIS framework Update)**
 
 This Python script checks for seat availability in real time for a specific course section from either the [BRAC University USIS](https://usis.bracu.ac.bd/academia/admissionRequirement/getAvailableSeatStatus) website or [Eniamza's Usis2Global](https://github.com/Eniamza/usis2global) and sends a notification to running device when seats are available. The script works on both desktop environments (Windows/Linux) and Android devices through the Termux terminal.
 
